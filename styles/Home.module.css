@@ -92,6 +92,28 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
+.toDoItem {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.toDoInput {
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 8px;
+  border: 1px solid #4e4e4e;
+}
+
+.toDoButton {
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fafafa;
+  border: 1px solid #0070F3;
+  background-color: #0070F3;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
